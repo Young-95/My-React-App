@@ -1,0 +1,16 @@
+* {
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: wheat;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    margin: 1rem;
+    background-color: black;
+    border-radius: 100%;
+    border: 0;
+}
