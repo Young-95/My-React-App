@@ -16,14 +16,21 @@ const App = () => {
     setCounter(counter - 1);
     };
 
+  const resetButton = () => {
+
+    setCounter (0);
+  } 
 
 
   return (
     <>
       <h1>Counter App</h1>
       <p>{counter}</p>
-      <button onClick={plusOne}>+</button>
-      <button onClick={minusOne}>-</button>
+      <div>
+        <button onClick={minusOne}>-</button>
+        <button onClick={plusOne}>+</button>
+      </div>
+      <button className="reset" onClick={resetButton}>Reset</button>
     </>
   )
 
